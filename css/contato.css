@@ -1,0 +1,57 @@
+.container-contato{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  flex-wrap: nowrap;
+  width: 90%;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+}
+
+.input-nome, .input-email, .input-duv, .input-den, .input-submit{
+  margin-top: 10px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.input-nome:hover, .input-email:hover, .input-duv:hover, .input-den:hover{
+  cursor: text;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.01);
+}
+
+.input-nome, .input-email{
+  height: 36px;
+  width: 600px;
+  min-width: 50px;
+}
+
+.input-duv, .input-den{
+  height: 216px;
+  width: 600px;
+  min-width: 50px;
+}
+
+.input-submit{
+  margin-top: 50px;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #F8BB02;
+  font-weight: bold;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+.input-submit:hover{
+  transform: scale(1.01);
+  background-color: black;
+  color: #F8BB02;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}

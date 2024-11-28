@@ -1,0 +1,25 @@
+.dicas{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.conteudo-dicas{
+  width: 60%;
+  padding: 30px;
+  border: solid, black, 2px;
+  border-radius: 10px;
+}
+
+.lista-dicas{
+  margin-top: 10px;
+}
+
+.grafico{
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
