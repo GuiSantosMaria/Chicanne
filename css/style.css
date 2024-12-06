@@ -21,10 +21,10 @@ body {
 }
 
 header {
-  position: fixed;
-  top: 0;
+  top: inherit;
   left: 0;
   width: 100%;
+  overflow: auto;
   z-index: 1000;
   text-align: center;
 }
